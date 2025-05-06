@@ -1,0 +1,47 @@
+*{
+    color: white;
+}
+body{
+    background-image: url("bookTable_background.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 800px;
+}
+.common{
+    color: white;
+    text-align: center;
+}
+.wid{
+    margin: 2rem 0 2rem 0;
+}
+.orange{
+    color: rgb(240, 160, 11);
+    background-color:rgba(0, 0, 0, 0.315);
+    text-shadow: 2px 2px 5px rgba(247, 11, 11, 0.445);
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin-left: 13rem;
+    margin-right: 13rem;
+    
+}
+.property{
+    background-color: rgba(26, 25, 25, 0.678);
+    margin-bottom: 2rem;
+}
+::placeholder{
+    color: rgb(139, 130, 130);
+}
+label{
+    font-weight: 600;
+    margin-right: 1.5rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 30% ;
+    margin-right: 30%;
+}

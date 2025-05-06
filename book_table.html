@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Table - The Moon</title>
+    <link rel="stylesheet" href="book_table.css">
+</head>
+<body>
+    <h1 class="common">Registration Form</h1>
+    <p class="wid common orange">Thank You for choosing to dine with us! To assist you in reserving a table, we kindly request you to complete this form</p>
+    <div >
+        <div class="box">
+            <div>
+                <label for="name">Enter Your Name: </label>
+                <input id="name" class="property" type="text" placeholder="Enter Your Name">
+            
+            </div>
+            <div >
+                <label for="email">Enter Your Email: </label>
+            <input class="property" id="email" type="text" placeholder="Email">
+            </div>
+    
+            <div><label for="num">Enter Your Number: </label>
+                <input class="property" id="num"  placeholder="Mobile Number">
+            </div>
+            
+    
+            <div><label for="npeople">number of people: </label>
+                <input class="property" type="number"id="npeople">
+            </div>
+            
+            <div><label for="date">Date: </label>
+                <input class="property" type="date"id="date">
+            </div>
+            
+            <div>
+                <label for="party">Which type of Party do you want to organise </label>
+            <select class="property" name="party" id="party">
+                <option value="select">select</option>
+                <option value="Bithday party">Bithday party</option>
+                <option value="marr">Marriage party</option>
+                <option value="fam">Family Party</option>
+                <option value="corp">Corporate Party</option>
+                <option value="oth">other</option>
+            </select>
+            </div>
+        </div>
+        <div class="box">
+            <button id="book" class="property" type="submit">Book it</button>
+        </div>
+    </div>
+    <script src="book_table.js"></script>
+</body>
+</html>

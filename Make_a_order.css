@@ -1,0 +1,20 @@
+body{
+    animation: imageChange 30s linear 1s  infinite normal;
+}
+#submitbutton{
+    background-color: rgba(0, 0, 0, 0.432);
+    color: whitesmoke;
+    border-top: 2px solid rgb(107, 217, 236);
+    border-left: 2px solid  rgb(107, 217, 236);
+    background-color: rgba(224, 160, 21, 0.815);
+}
+@keyframes imageChange{
+    30%{
+        background-image: url("Book_a_order2.jpg");
+        background-size: cover;
+    }
+    60%{
+        background-image: url("Book_a_order1.jpg");
+        background-size: cover;
+    }
+}
